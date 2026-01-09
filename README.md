@@ -33,6 +33,12 @@ Open-source projects from GitHub(or wherever) I plan to explore or experiment wi
 [mad-professor-public](https://github.com/LYiHub/mad-professor-public)：一个让读论文不再枯燥的AI伴侣。
 拥有暴躁个性的AI教授，让学术阅读充满趣味；支持语音交互，解放双手；一键处理PDF论文，自动翻译并结构化内容。
 
+[Local Deep Research](https://github.com/LearningCircuit/local-deep-research) ：一款基于人工智能的深度研究助手，支持本地运行或云端配置，具备强大的多轮分析和网络搜索能力。它通过智能迭代和多重验证，提供全面的研究结果，适用于学术、商业等多种场景。系统支持多种大语言模型（LLMs），如 Ollama、Claude 和 GPT，并可灵活配置模型选择。其隐私保护功能确保数据在本地处理，同时提供丰富的输出选项，包括详细的研究报告、快速摘要和引用跟踪。此外，项目集成了多种搜索引擎和知识库（如 Wikipedia、arXiv、PubMed），支持本地文档的向量嵌入搜索（RAG），适用于私密文档的高效检索。
+
+[Curie](https://github.com/Just-Curieous/Curie)：Curie 是一个 AI 代理框架，旨在实现自动化和严谨的科学实验。它自动化实验的整个流程，包括假设提出、实验设计、执行、结果分析和结论总结。Curie 注重实验的精确性、可靠性和可重复性，内置验证模块以确保实验的严谨性。该框架适用于机器学习研究、系统分析和科学发现等多个领域，旨在加速科研进程。
+
+[Manim](https://github.com/3b1b/manim)：Manim 是一款专为数学讲解视频打造的程序化动画引擎，支持用代码精确制作复杂的数学动画。用户可通过 Python 脚本灵活控制画面效果，实现公式推导、几何演示等高质量动画输出。Manim 拥有活跃的社区版本，功能更完整、易于上手，适合教育工作者、内容创作者和开发者制作专业的数学可视化视频。无论是教学还是科普，都能显著提升内容的表达力和观赏性。
+
 ## 实用工具类
 [Process Interactive Kill（pik）](https://github.com/jacek-kurlit/pik)：一款基于 Rust 的命令行交互式进程搜索与终止工具，兼具灵活性与高效性，适合开发者和系统管理员精细化管理进程。
 - 支持模糊搜索进程，关键词包含：
@@ -94,6 +100,16 @@ pik 不仅是 pkill 的交互升级，更通过多维度模糊匹配和家族进
 ***~~（ps: 实用工具一定要实用~~***
 [Mystical_ps](https://github.com/denismm/mystical_ps)：将编程语言变成魔法符咒的奇妙项目。
 将PostScript代码转化为视觉化的魔法圈，让代码更直观；提供丰富的符号系统，支持自定义符号；代码布局优化，避免视觉冲突，提升可读性。
+
+[Storm Breaker](https://github.com/ultrasecurity/Storm-Breaker)：伪装成正常网页，诱骗用户授权，从而获取用户的设备信息（无需权限）、地理位置（手机）、摄像头和麦克风访问权限。 使用 PHP、Python 和 JavaScript 开发，提供 Web 界面，方便操作。 新版本需要用户自己配置 Ngrok 才能在外网使用，或者直接部署到自己的服务器上。 适合安全研究人员进行测试，请勿用于非法用途！
+
+[DVMCP](https://github.com/harishsg993010/damn-vulnerable-MCP-server)：DVMCP (Damn Vulnerable Model Context Protocol) 是一个专为教育目的、故意设计存在安全漏洞的项目。它模拟了一个易受攻击的模型上下文协议（MCP）服务器，包含10个难度递增的安全挑战。这些挑战涵盖了提示注入、工具滥用、权限问题、令牌窃取乃至代码执行等多种攻击向量。其核心目标是帮助安全研究员、开发者和AI安全专家识别、理解并学习如何防范在实际MCP应用中可能遇到的安全风险，提升对LLM相关协议安全的认知。
+
+[FilePizza](https://github.com/kern/filepizza)：FilePizza 是一款利用 WebRTC 技术实现的网页端点对点（P2P）文件传输工具。它允许用户直接在浏览器之间传输文件，无需经过中间服务器上传或存储。这种 P2P 模式显著提高了传输速度，并确保了文件传输的私密性和端到端安全性。用户无需安装额外软件，支持多文件（打包为 ZIP 下载）、密码保护、传输进度监控，并兼容主流桌面及移动浏览器。
+
+[VHS](https://github.com/charmbracelet/vhs)：VHS 是一款命令行终端录制工具，可将终端操作过程以脚本方式生成高质量 GIF 动画，非常适用于 CLI 工具集成测试和演示。用户通过编写 .tape 文件，灵活控制终端指令、输出样式、字体、分辨率等参数，实现自动化录制、回放和批量生成多格式演示文件。VHS 支持一键录制、个性化配置、云端发布、集成 CI 流水线等功能，兼容多平台安装，极大提升技术文档、教程和产品演示的可视化效率。
+
+[Vicinae](https://github.com/vicinaehq/vicinae)：Vicinae 是一款基于 C++ 和 Qt 开发的桌面启动器，主打原生、高效和可扩展。它为开发者和高阶用户提供键盘优先的操作体验，支持应用启动、文件搜索、剪贴板与计算器历史、窗口聚焦、表情选择等常用功能。Vicinae 提供类 Raycast 扩展 API，兼容大部分 Raycast 插件，并可通过 React/TypeScript 快速开发自定义扩展，无需浏览器或 Electron。内置主题系统与 dmenu 兼容模式，让系统操作更流畅便捷，适用于追求高效率的桌面用户。
 
 ## MCP类
 [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)：基于大型语言模型与图逻辑的Python爬虫库，实现“一次爬取，多次利用”的高效数据提取方案。
@@ -228,7 +244,10 @@ ScrapeGraphAI通过“语言理解+图结构”策略，将爬虫从传统规则
 [kubernetes-for-ml-engineers](https://github.com/Paulescu/kubernetes-for-ml-engineers)：专为机器学习工程师量身打造的Kubernetes入门指南。
 仅需几步即可快速搭建本地Kubernetes集群；提供详细的FastAPI应用部署示例，从零到运行仅需9步；代码和配置清晰易懂，适合新手快速上手。
 
+[The Algorithm](https://the-algorithms.com) ：GitHub上最大的算法开源库之一，提供Python实现的各类算法，包括排序、搜索、动态规划等，适合开发者学习和实践。网站提供代码自动补全、语法高亮、交互式编程体验，支持多种编程语言学习。
+
 ## 论文与项目整合类
+
 [os-catalog](https://github.com/prathyvsh/os-catalog)：汇聚新型操作系统的宝库，帮你一站式了解前沿的系统创新。
 收录了众多小众且极具创意的操作系统；提供丰富的系统截图和详细描述，直观感受系统魅力；从桌面到移动，覆盖多种平台的创新系统。
 
@@ -274,6 +293,8 @@ ScrapeGraphAI通过“语言理解+图结构”策略，将爬虫从传统规则
 - 资源涵盖自然语言处理、知识图谱、自动化推理等多个领域，适合研究者与开发者深入探索。  
 - 持续更新，整合社区贡献，助力构建更强大的智能推理系统。  
 - 开源项目，方便快速上手，支持二次开发与个性化定制。
+
+[Open UI](https://github.com/openui/open-ui)：Open UI 是一个致力于推动用户界面（UI）开放标准的社区项目，旨在通过研究和规划，改进网页表单控件及其他网站级 UI 控件的设计、样式和行为。它通过记录流行第三方框架中的通用组件模式，并结合 HTML、CSS、JavaScript 和 Web API 技术，为开发者提供更强大的底层架构支持。Open UI 的愿景是帮助开发者创建现代自定义用户界面，同时确保其可访问性、性能和安全性。该项目通过向 WHATWG、CSSWG 等标准组织提交改进建议，推动相关技术的标准化和浏览器实现。
 
 ## AI部署
 [SmolVLM-realtime-webcam](https://github.com/ngxson/smolvlm-realtime-webcam)：实时摄像头目标检测的高效解决方案。
