@@ -328,3 +328,28 @@ ScrapeGraphAI通过“语言理解+图结构”策略，将爬虫从传统规则
 - 另有 Delta-Prover 项目，专注于测试时生成形式证明的技术研究，推动自动化数学系统的性能极限。  
 - 全部证明基于 Lean v4.14.0，采用 Apache-2.0 开源许可，方便社区复用与二次开发。  
 Seed-Prover 不仅是数学 AI 形式化证明的里程碑，也为数学研究方法论带来新的视角，推动数学与人工智能深度融合。长期来看，这类工具将成为数学家、科研人员的强力助手，实现复杂数学问题的自动验证和创新发现。
+
+## 全模态·语音与声纹
+
+涵盖 TTS（文字转语音）、SVC（声音转换）、音频处理等方向。
+
+### TTS 文字转语音
+
+[fish-speech](https://github.com/fishaudio/fish-speech)：SOTA 开源 TTS 模型，支持零样本克隆和多语言合成。
+基于自回归变换器架构，结合 LLaMA 风格的语言模型与音频解码器；支持中文、英文、日文等多语言；提供高效的推理工具和预训练模型，适合需要高质量语音合成的应用场景。
+
+[vits2](https://github.com/daniilrobnikov/vits2)：VITS2 的非官方实现，通过对抗学习和架构设计提升单阶段 TTS 的质量与效率。
+改进的单阶段模型设计，解决传统两阶段系统的复杂性问题；支持多说话人建模，保持语音特征相似度；降低对音素转换的依赖，实现更端到端的语音合成；提供官方 Demo 和论文参考，适合研究者和开发者探索高质量 TTS。
+
+### SVC 声音转换
+
+[so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)：SoftVC VITS 歌声转换模型，让歌声风格转换变得简单。
+专注歌声转换（SVC）而非 TTS，支持将一种音色/风格的歌声转换为另一种；基于 SoftVC 特征提取和 VITS 声学模型；提供可视化编辑器、说话人混合时间轴等功能；社区活跃，有多个衍生项目（如 MoeVoiceStudio、voice-changer）提供更好用的 UI 和实时转换能力。
+
+[DragonianVoice](https://github.com/PriesiaMioShirakana/DragonianVoice)：多个 SVC/TTS 模型的 C++ 推理库，提供高效的本地部署方案。
+一站式支持多种主流模型：TTS（Vits、EmotionalVits、BERTVits2、GPtSoVits）和 SVC（SoVitsSvc、RVC、DiffusionSvc、FishDiffusion、ReflowSvc）；基于 ONNX 框架，支持 C/C++/C# 调用；与 fish-speech 联动提供 ggml 版本的 fish-speech.cpp；适合需要高性能本地推理的应用场景。
+
+### 音频处理工具
+
+[audio-slicer](https://github.com/flutydeer/audio-slicer)：简洁高效的音频切片工具，基于静音检测自动分割音频。
+提供 GUI 界面，操作直观；支持自定义静音阈值、最小/最大片段长度等参数；适合为 TTS/SVC 训练准备数据集，将长音频自动切分为适合的短片段；Python 实现，依赖简洁，易于集成到工作流。
